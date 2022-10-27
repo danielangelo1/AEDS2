@@ -850,7 +850,7 @@ void hashFunction2()
   hashArq2 = fopen("hash2.db", "wb+");
 
   int i;
-  int bucketSize = 68;
+  int bucketSize = 7;
   int buckets[bucketSize];
   int hash;
   for (i = 0; i < bucketSize; i++)
@@ -867,7 +867,7 @@ void hashFunction2()
     fprintf(stderr, "Hash: %d, Index: %i, Codigo: %d\n", hash, i, func->cod);
     salva(func, hashArq2);
     buckets[hash] += 1;
-    if (buckets[(i+1)] >= bucketSize)
+    if ((i) >= bucketSize)
     {
       printf("\nOVERFLOW, nao eh possivel adicionar mais elementos na tabela!\n");
       break;
