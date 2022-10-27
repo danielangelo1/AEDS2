@@ -2,6 +2,7 @@
 Atividades desenvolvidas durante a disciplina de Algoritimo e Estrutura de Dados 2.
 
 Daniel Angelo
+
 Arthur Feu
 
 ----------------------PROVA 1---------------------------------------------------------------
